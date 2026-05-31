@@ -33,3 +33,4 @@ customers.forEach(customer => {
     `Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`
   );
 });
+customers[2].purchases.push("Mouse Pad");
